@@ -23,6 +23,7 @@ Creating a table in the database and saving the tuples with the help of Object R
 <hr>
 <b>When you are connecting with oracle, no need to mention the schema name so the connection URL looks like as below : </b>
 <br/>
-<p>  jdbc:oracle:thin:[at]<hostname>:<port>:<sid> </p>
-
+<p> jdbc:oracle:thin:@Hostname:port:SID </p>
+<br/>
+<hr>
 
