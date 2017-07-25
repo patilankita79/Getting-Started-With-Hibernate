@@ -27,9 +27,22 @@ Creating a table in the database and saving the tuples with the help of Object R
 <li>JDBC</li>
 <li>MySQL or Oracle or any database</li>
 <hr>
-<li>Hibernate: 4.3</li> 
+<li>Hibernate: 4.1.6</li> 
 <li>Oracle: 12c</li> 
 <li>Java: 1.8</li> 
+<hr>
+<h3> Steps Followed: </h3>
+<li>Create a maven project, Select maven-archetype-quickstart as artifact id</li>
+<li>Add hibernate dependency in pom.xml. I have added 4.1.6.Final version of hibernate from <a href ='https://mvnrepository.com/'>Maven Repository</a></li>
+<li>Add oracle jdbc dependency. I have added ojdbc7 jar. This jar can be downloaded from Oracle website.</li>
+
+<u><b>Important Note: </b></u>
+Since this is a Maven project and ojdbc7 is an external library, you have to add this jar in your local maven repository. <br/>
+<b>Steps to add Oracle JDBC driver in local Maven repository </b>
+<li>Download the oracle jdbc jar file from Oracle official website</li>
+<li>In terminal/command prompt Type the command: mvn install:install-file -Dfile=C:\\PATH To YOUR OJDBC7 JAR\\ojdbc7.jar -DgroupId=com.oracle -DartifactId=ojdbc7 -Dversion=12.1.0 -Dpackaging=jar</li>
+<li>Add the dependency in pom.xml => GroupID: com.oracle, artifactId: ojdbc7, version: 12.1.0</li>
+<li>Update the maven project </li>
 <hr>
 <b>Adding Hibernate Plugin in eclipse</b>
 <li> Hibernate plugin is needed to create the configuration file of hibernate (hibernate.cfg.xml)
