@@ -1,8 +1,26 @@
-# GettingStartedWithHibernate
-This is the study project, to get started with Hibernate, to understand ORM framework.
+# Getting Started With Hibernate
+This is the study project, to get started with Hibernate, to understand ORM framework.<br/>
+This project creates the table with one tuple in Oracle Database.
+
 <hr>
 <b>Description: </b> <br/>
 Creating a table in the database and saving the tuples with the help of Object Relational Mapping Tool - Hibernate
+<h4>Mapping</h4>
+<table> 
+<tr>
+<td>Class</td>
+<td>Relation/Table</td>
+</tr>
+<tr>
+<td>Fields</td>
+<td>Columns</td>
+</tr>
+<tr>
+<td>Object</td>
+<td>Tuple</td>
+</tr>
+</table>
+   
 <hr>
 <b>Prerequisties</b><br/>
 <li>Java</li>
@@ -27,8 +45,16 @@ Creating a table in the database and saving the tuples with the help of Object R
 <hr>
 <li>To specify that this class [Mapped to Relation in database] is allowed to store its object in database, use @Entity annotation
 <li>@Id is used for specifying primary key.
-<li>To create table, specify the property name of hbm2ddl in hibernate.cfg.xml <br/>
-For example: <p> <property name="hbm2ddl.auto">create</property> </p>
+<li>To create table, specify the property name of hbm2ddl in hibernate.cfg.xml 
 <hr>
 Whenever you have to make changes to the database you have to follow ACID properties.
+<hr>
+<b>Procedure: <b/>
+<li>Open a session</li>
+<li>Begin Transaction</li>
+<li>Save the object using session object</li>
+<li>Commit</li>
+<li>Close a session</li>
+
+
 
