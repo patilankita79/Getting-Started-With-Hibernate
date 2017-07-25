@@ -32,7 +32,7 @@ Creating a table in the database and saving the tuples with the help of Object R
 <li>Java: 1.8</li> 
 <hr>
 <h3> Steps Followed: </h3>
-<li>Create a maven project, Select maven-archetype-quickstart as artifact id</li>
+<li>Create a maven project, Select maven-archetype-quickstart as artifact id [Make sure that maven is installed on your machine]</li>
 <li>Add hibernate dependency in pom.xml. I have added 4.1.6.Final version of hibernate from <a href ='https://mvnrepository.com/'>Maven Repository</a></li>
 <li>Add oracle jdbc dependency. I have added ojdbc7 jar. This jar can be downloaded from Oracle website.</li>
 <br/>
