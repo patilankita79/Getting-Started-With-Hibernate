@@ -2,6 +2,7 @@
 This is the study project, to get started with Hibernate, to understand ORM framework.<br/>
 Hibernate is a ORM tool <br/>
 This project creates the table with one tuple in Oracle Database.
+Basically, this project deals with saving the data to the database.
 
 <hr>
 <b>Description: </b> <br/>
