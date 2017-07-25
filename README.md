@@ -51,9 +51,9 @@ Whenever you have to make changes to the database you have to follow ACID proper
 <hr>
 <b>Procedure: <b/>
 <li>Open a session</li>
-<li>Begin Transaction</li>
+<li>Begin a Transaction</li>
 <li>Save the object using session object</li>
-<li>Commit</li>
+<li>Commit the transaction</li>
 <li>Close a session</li>
 
 
