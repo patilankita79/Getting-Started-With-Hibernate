@@ -40,7 +40,7 @@ Creating a table in the database and saving the tuples with the help of Object R
 Since this is a Maven project and ojdbc7 is an external library, you have to add this jar in your local maven repository. <br/>
 <b>Steps to add Oracle JDBC driver in local Maven repository </b>
 <li>Download the oracle jdbc jar file from Oracle official website</li>
-<li>In terminal/command prompt Type the command: mvn install:install-file -Dfile=C:\\PATH To YOUR OJDBC7 JAR\\ojdbc7.jar -DgroupId=com.oracle -DartifactId=ojdbc7 -Dversion=12.1.0 -Dpackaging=jar</li>
+<li>In terminal/command prompt Type the command: <br/>mvn install:install-file -Dfile=C:\\PATH To YOUR OJDBC7 JAR\\ojdbc7.jar -DgroupId=com.oracle -DartifactId=ojdbc7 -Dversion=12.1.0 -Dpackaging=jar</li>
 <li>Add the dependency in pom.xml => GroupID: com.oracle, artifactId: ojdbc7, version: 12.1.0</li>
 <li>Update the maven project </li>
 <hr>
