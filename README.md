@@ -21,7 +21,8 @@ Creating a table in the database and saving the tuples with the help of Object R
 <li>Configuration is provided in hibernate.cfg.xml</li>
 <li>Provide database dialect ,driver class, connection url, username and password in hibernate.cfg.xml file.</li>
 <hr>
-<b>When you are connecting with oracle, no need to mention the schema name so the connection URL looks like as below : <b> <br/>
+<b>When you are connecting with oracle, no need to mention the schema name so the connection URL looks like as below : </b>
+<br/>
 <p>  jdbc:oracle:thin:@<hostname>:<port>:<sid> </p>
 
 
