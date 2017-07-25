@@ -51,6 +51,9 @@ Since this is a Maven project and ojdbc7 is an external library, you have to add
 <li>If we want to connect to the database, we need to provide configuration.</li>
 <li>Configuration is provided in hibernate.cfg.xml</li>
 <li>Provide database dialect ,driver class, connection url, username and password in hibernate.cfg.xml file.</li>
+<b>Database Dialect:</b> Name of the database (Oracle, MySQL, etc)<br/>
+<b>Driver Class: </b> For Oracle => oracle.jdbc.driver.OracleDriver <br/>
+
 <hr>
 <b>When you are connecting with oracle, no need to mention the schema name so the connection URL looks like as below : </b>
 <br/>
