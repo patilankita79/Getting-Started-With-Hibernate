@@ -74,5 +74,8 @@ Whenever you have to make changes to the database you have to follow ACID proper
 <li>Commit the transaction</li>
 <li>Close a session</li>
 
+<hr>
+Hence, save() helps to save the data to database.
+
 
 
