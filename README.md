@@ -1,6 +1,6 @@
 # Getting Started With Hibernate
 This is the study project, to get started with Hibernate, to understand ORM framework.<br/>
-Hibernate is a ORM tool <br/>
+Hibernate is a ORM tool (Object Relational Mapping) <br/>
 This project creates the table with one tuple in Oracle Database.
 Basically, this project deals with saving the data to the database.
 
