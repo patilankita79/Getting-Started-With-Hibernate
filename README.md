@@ -24,7 +24,7 @@ Creating a table in the database and saving the tuples with the help of Object R
 </table>
    
 <hr>
-<b>Prerequisties</b><br/>
+<b>Prerequisites</b><br/>
 <li>Java</li>
 <li>JDBC</li>
 <li>MySQL or Oracle or any database</li>
